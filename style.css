@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://browsecat.net/sites/default/files/anime-street-4k-wallpapers-61575-844917-7335164.png');
+    background-size: cover;
+}
+
+#box {
+    position: fixed;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(f, f, f, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#maintext {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#subtext {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+
+#icon {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
